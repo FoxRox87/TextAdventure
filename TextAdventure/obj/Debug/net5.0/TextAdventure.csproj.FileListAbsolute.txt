@@ -1,0 +1,16 @@
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\TextAdventure.csproj.AssemblyReference.cache
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\TextAdventure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\TextAdventure.AssemblyInfoInputs.cache
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\TextAdventure.AssemblyInfo.cs
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\TextAdventure.csproj.CoreCompileInputs.cache
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\bin\Debug\net5.0\TextAdventure.exe
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\bin\Debug\net5.0\TextAdventure.deps.json
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\bin\Debug\net5.0\TextAdventure.runtimeconfig.json
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\bin\Debug\net5.0\TextAdventure.runtimeconfig.dev.json
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\bin\Debug\net5.0\TextAdventure.dll
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\bin\Debug\net5.0\ref\TextAdventure.dll
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\bin\Debug\net5.0\TextAdventure.pdb
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\TextAdventure.dll
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\ref\TextAdventure.dll
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\TextAdventure.pdb
+C:\Users\dafox\source\repos\TextAdventure\TextAdventure\obj\Debug\net5.0\TextAdventure.genruntimeconfig.cache
