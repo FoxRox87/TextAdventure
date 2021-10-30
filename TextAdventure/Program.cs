@@ -1035,7 +1035,7 @@ namespace TextAdventure
                 return;
             }
 
-            Console.WriteLine("")
+            Console.WriteLine("");
 
 
             //76 23 82 45
