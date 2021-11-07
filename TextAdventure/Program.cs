@@ -34,7 +34,7 @@ namespace TextAdventure
                 "\nProceed as usual " +
                 "\n.\n.\n." +
                 "\nApruptly you open your eyes. You feel awful ... your whole body is aching and your hands can´t stop shaking. " +
-                "Your blurry vision reveals a half emptied tumbler in front of you.");
+                "\nYour blurry vision reveals a half emptied tumbler in front of you.");
 
 
 
@@ -98,11 +98,7 @@ namespace TextAdventure
 
             unlock = unlockA = false;
 
-            Console.WriteLine("... grabbing and emptying it.  " +
-                "\nA warm feeling, followed by a smile on your face which radiates your satisfaction through the completely empty half run down bar. " +
-                "\nYour life is a ball of shit. " +
-                "\nEveryone sucks. " +
-                "\nThe meds are working.");
+            Console.WriteLine("... grabbing and emptying it.");
 
             do
             {
@@ -163,11 +159,12 @@ namespace TextAdventure
                     if (enter == "Look down")
                     {
                         Console.WriteLine("You notice your implants and prostheses on the left half of your body. " +
-                            "A creeping feeling stiffens your neck ... you are starting to shake.");
+                            "\nA creeping feeling stiffens your neck. You are starting to shake.");
 
                         Console.WriteLine("The memories of your last days in service flash before your eyes. " +
-                            "You fought on an abandoned planet in the outer rim of the Empire against the last" +
-                            " remains of an open rebellion. You were a ...");
+                            "\nYou fought on an abandoned planet in the outer rim of the Empire against the last" +
+                            " remains of an open rebellion. " +
+                            "\nYou were a ...");
 
                         do
                         {
@@ -205,18 +202,16 @@ namespace TextAdventure
 
                                 if (enter == "farmer")
                                 {
-                                    Console.WriteLine("... who inherited a big piece of land.But it was in debt so you were " +
-                                    "forced to join the military and left your family behind who ... I never had a family." +
-                                    "This can´t be true ... You must have been a ...");
-
-
+                                    Console.WriteLine("... who inherited a big piece of land.But it was in debt so you were forced to join the military and left your family " +
+                                        "\nbehind who ... I never had a family. This can´t be true ... " +
+                                        "\nYou must have been a ...");
                                 }
 
                                 if (enter == "spy")
                                 {
-                                    Console.WriteLine("... who operated behind enemy lines and infiltrated the local population." +
-                                    "You were tasked to demolish a local communications array of the empire ... Sabotage my own " +
-                                    "government ? That makes no sense.You must have been a...");
+                                    Console.WriteLine("... who operated behind enemy lines and infiltrated the local population. You were tasked to demolish a local " +
+                                        "\ncommunications array of the empire ... Sabotage my own government ? That makes no sense." +
+                                        "\nYou must have been a...");
                                     Console.WriteLine(unlockA);
                                 }
                             }
@@ -257,8 +252,8 @@ namespace TextAdventure
                 if (enter == "hell")
                 {
                     Console.WriteLine("An intense burning pain inside of your head which leaves you in paralysing agony and cramping down to the" +
-                        " floor. A voice in your head was slowly becoming louder. \"I'm sorry for this unpleasant intrusion into your private life." +
-                        "  For the rest of our short ...\"");
+                        " floor. \nA voice in your head was slowly becoming louder. \"I'm sorry for this unpleasant intrusion into your private life." +
+                        "  \nFor the rest of our short ...\"");
 
                     unlock = true;
                 }
@@ -353,7 +348,7 @@ namespace TextAdventure
 
 
             Console.WriteLine("\"... matters to you. So listen carefully. In two hours, the Intergalactic Navigation and Telecommunication " +
-                "Network will collapse on this planet. Which means, it will be blind and deaf for a while. There is a ship called Maverick at " +
+                "Network will collapse on this planet. \nWhich means, it will be blind and deaf for a while. There is a ship called Maverick at " +
                 "the local spaceport, platform XX78.\"");
 
             do
@@ -1097,6 +1092,8 @@ namespace TextAdventure
                             "\nEntrance - Platform");
                         enter = Console.ReadLine();
 
+                        unlock = unlockA = unlockB = false;
+
                         if (enter == "Platform")
                         {
                             Console.WriteLine("Type in Platform number (hint format: XX00)");
@@ -1200,7 +1197,7 @@ namespace TextAdventure
 
                         }
 
-                        if (enter == "Entrance")
+                        else if (enter == "Entrance")
                         {
                             timer -= 10;
                             
@@ -1215,25 +1212,22 @@ namespace TextAdventure
 
                             do
                             {
-                                if (unlock == false)
-                                {
-                                    Console.WriteLine("Look around");
 
-                                }
-
-                                if (unlock == true)
-                                {
-                                    Console.WriteLine("Look around - Talk to lady (-10 min) - Talk to security (-20 min)");
-                                }
+                                Console.WriteLine("Look around - Talk to lady (-10 min) - Talk to security (-20 min)");
 
                                 enter = Console.ReadLine();
+
+                                if (enter == "Talk to security")
+                                {
+                                    Console.WriteLine("This is a demo version, if you want more content write an Email to itscalledfuchs@gmx.de");
+                                }
 
                                 if (enter == "Look around")
                                 {
                                     Console.WriteLine("A lot of colourful and fancy people eager to leave the planet standing in line. Something seems to be odd since you usually just walk by the identification scanner " +
                                         "and enter your ship. There is a ball of people surrounding a security who tries his best to keep the crowd calm. An old women is sitting on one of the chairs in the waiting area, " +
                                         "staring at you. You try to make her look away by staring back with a grim expression but instead of doing your bidding she sends you a warm smile.");
-                                    unlock = true;
+                                 
                                 }
 
                                 if (enter == "Talk to lady")
